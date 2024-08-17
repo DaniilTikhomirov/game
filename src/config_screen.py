@@ -1,0 +1,1 @@
+import pygamedef screen_():    screen_width = 1100    screen_height = 900    screen = pygame.display.set_mode((screen_width, screen_height))    return screen

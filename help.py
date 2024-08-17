@@ -1,0 +1,1 @@
+with open("levels\\level1.txt") as f:    s = []    for i in f:        s.append(i.strip())with open("levels\\y.txt", "a") as f:    flag = False    for i in s:        if flag:            f.write(i + "\n")            flag = False        else:            f.write(i + ",")            flag = True
